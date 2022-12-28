@@ -10,4 +10,10 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+      public void doProcess()
+    {
+      int i=10;
+    } 
+
+
 }
