@@ -13,12 +13,15 @@ public class Application {
          System.out.println("Haello World");
       } 
          SpringApplication.run(Application.class, args);
+              
+             public static void int a=10;
+		SpringApplication.run(Application.class, args);
+
 	}
 
       public void doProcess()
     {
       int i=10;
     } 
-
 
 }
