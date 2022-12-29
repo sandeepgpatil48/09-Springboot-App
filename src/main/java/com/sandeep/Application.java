@@ -7,15 +7,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 	public static void main(String[] args) {
+		
+        public void doProcess(){
+        
+         System.out.println("Haello World");
+      } 
+         SpringApplication.run(Application.class, args);
               
              public static void int a=10;
 		SpringApplication.run(Application.class, args);
+
 	}
 
       public void doProcess()
     {
       int i=10;
     } 
-
 
 }
